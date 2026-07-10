@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# Go
+bin/
+obj/
+*.test
+*.prof
+
+# IDEs and OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Rootfs and system images
+rootfs-builder/aosp*/
+rootfs-builder/lineage_rootfs/
+rootfs-builder/native-bridge-backups/
+rootfs-builder/backup/
+rootfs-builder/cache/
+rootfs-builder/sys-img/
+rootfs-builder/*.img*
+rootfs-builder/*.xz
+

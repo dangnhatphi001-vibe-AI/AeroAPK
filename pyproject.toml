@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerodroid"
+version = "0.1.0"
+description = "Mini-Android Container (MAC): run Android APKs natively on Linux via LXC"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.4.0",
+]
+
+[project.scripts]
+aerodroid = "aerodroid.__main__:main"
+aerodroid-tune = "aerodroid.tuning.performance:cli"
+aerodroid-container = "aerodroid.backend.container:cli"
+aerodroid-install-apk = "aerodroid.backend.apk:cli"
+aerodroid-apk-doctor = "aerodroid.apk_doctor:main"
+aerodroid-run = "aerodroid.run_app:main"
+aerodroid-run-apk = "aerodroid.run_apk:main"
+
+[tool.setuptools.packages.find]
+include = ["aerodroid*"]

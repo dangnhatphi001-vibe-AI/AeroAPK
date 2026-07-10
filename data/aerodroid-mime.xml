@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/vnd.android.package-archive">
+    <comment>Android Package</comment>
+    <comment xml:lang="vi">Gói ứng dụng Android</comment>
+    <glob pattern="*.apk"/>
+    <generic-icon name="aerodroid"/>
+  </mime-type>
+</mime-info>

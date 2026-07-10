@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AeroDroid
+Comment=Install and launch Android APKs
+Exec=aerodroid %f
+Icon=aerodroid
+Terminal=false
+Categories=Utility;X-Android;
+MimeType=application/vnd.android.package-archive;
+StartupNotify=true
+StartupWMClass=aerodroid
